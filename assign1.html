@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        #head{
+            font-size: 50px;
+            animation-name: anim;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            text-align: center;
+            
+        }
+        @keyframes anim {
+            from{transform: scale(0);
+                color: cornflowerblue;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            to{transform: scale(1);
+                color: red;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        body{
+            background-color: bisque;
+        }
+        .container1 {
+            display: flex;            
+            justify-content: space-between; 
+            align-items: center; 
+            height: 350px; 
+            flex-direction : row;
+        }
+        .container2 {
+            display: flex;            
+            justify-content: space-between; 
+            align-items: center; 
+            height: 350px; 
+            flex-direction : row;
+        }
+        .image1{
+            border-radius: 10%;
+            padding: 2px 20px 2px 20px;
+            margin-left: 100px;
+        }
+        .image2{
+            border-radius: 10%;
+            padding: 10px 20px 10px 20px;
+            margin-right: 100px;
+        }
+        .about1{
+           width: 500px;
+           margin-right: 100px; 
+        }
+        .about2{
+            width: 500px;
+            margin-left: 100px;
+        }
+        img{
+            border-radius: 30%;
+            height: 330px;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #a3090e;
+        }
+        p {
+            line-height: 1.5;
+            font-size: 18px;
+        }
+        #c01{
+            background-color: #ADD8E6;
+        }
+        #c02{
+            background-color: #F08080;
+        }
+        #c03{
+            background-color: #90EE90;
+        }
+        #c04{
+            background-color: #FAFAD2;
+        }
+        #c05{
+            background-color: #FFB6C1;
+        }
+        #c06{
+            background-color: #E6E6FA;
+        }
+        #c07{
+            background-color: #FFDAB9;
+        }
+        #c08{
+            background-color: #AFEEEE;
+        }
+        #prob1{
+            margin-left: 50px;
+        }
+        footer{
+            text-align: center;
+            word-spacing: 3px;
+            background-color: rgb(193, 158, 21);
+        }
+    </style>
+</head>
+<body>
+    <header id="head">
+        <h1>Historical Places In india</h1>
+    </header>
+    <hr>
+    <div>
+        
+        <div class="container1" id="c01">
+            <div class="image1">
+                <img src="https://imgs.search.brave.com/Dc5ZHxcKwEyLNhxJW_FX893dO9jOrM5Np0beMSETNKI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU5/MzcxNzkxL3Bob3Rv/L3Rhai1tYWhhbC1p/bmRpYS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9TTVqNVdP/Ti1zYjVJYmVGeEU4/d0kzQ1JoRjFsWU8y/UWVGd0diSU1ZZzZm/Yz0" alt="Taj Mahal">
+            </div>
+            <h1>Taj Mahal</h1>
+            <div class="about1">
+                <p>
+                    The Taj Mahal, located in Agra, India, is one of the most iconic symbols of love and architectural beauty. Built by the Mughal Emperor Shah Jahan in the 17th century, it serves as a mausoleum for his beloved wife, Mumtaz Mahal. Crafted entirely from white marble, the Taj Mahal is renowned for its intricate designs, stunning symmetry, and elegant domes. The monument reflects the finest elements of Mughal architecture, blending Indian, Persian, and Islamic styles. At sunrise and sunset, the Taj Mahal’s appearance transforms as the marble reflects changing hues, making it a timeless wonder and a UNESCO World Heritage site. <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">Read More</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <!-- second -->
+
+        <div class="container2" id="c02">
+            <div class="about2">
+                <p>
+                    The Qutub Minar is a stunning historical monument in Delhi, India, standing at 72.5 meters tall. Built in 1193 by Qutb-ud-din Aibak and completed by Iltutmish, this UNESCO World Heritage Site exemplifies early Indo-Islamic architecture. Constructed of red sandstone with intricate carvings and inscriptions, the minaret was initially intended as a victory tower and a minaret for the nearby Quwwat-ul-Islam Mosque. Its elegant design, featuring five distinct stories, reflects a blend of Persian and Indian styles, making it a significant symbol of India’s rich architectural heritage. <a href="https://en.wikipedia.org/wiki/Qutb_Minar" target="_blank">Read More</a>
+                </p>
+            </div>
+            <h1>Qutub Minar</h1>
+            <div class="image2">
+                <img src="https://imgs.search.brave.com/VowE6vZrwMx4nDf6EPM_9scghf3hlK6dfHlIYK5pqqw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzAzLzQyLzg4/LzM2MF9GXzM0Mjg4/MDdfMnNrN01OT3Vt/SUpwREVrN1VXVzN2/bmczUVN4THFqLmpw/Zw" alt="Qutub Minar">
+            </div>
+        </div>
+        <hr>
+        <!-- third -->
+        <div class="container1" id="c03">
+            <div class="image1">
+                <img src="https://imgs.search.brave.com/oPyr6kKrMaTA-BXMXBT3bnd4f14yOsH3Z4IfCkQEmgo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9h/L2EzL1JlZF9Gb3J0/X2luX0RlbGhpXzAz/LTIwMTZfaW1nMS5q/cGc" alt="Taj Mahal">
+            </div>
+            <h1>Red Fort</h1>
+            <div class="about1">
+                <p>
+                    The Red Fort in Delhi, India, is a majestic Mughal fortress renowned for its striking red sandstone walls and intricate architecture. Built by Emperor Shah Jahan between 1638 and 1648, it served as the Mughal emperors' main residence for over 200 years. The fort is celebrated for its stunning courtyards, elegant marble palaces, and historical significance, including its role in India's independence movement. Now a UNESCO World Heritage Site, the Red Fort remains a symbol of India's rich history and architectural grandeur. <a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank">Read More</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <!-- fourth -->
+        <div class="container2" id="c04"> 
+            <div class="about2">
+                <p>
+                    Hampi is an ancient village in Karnataka, India, renowned for its rich historical and architectural heritage. Once the capital of the Vijayanagara Empire in the 14th to 16th centuries, Hampi is now a UNESCO World Heritage Site celebrated for its impressive ruins and monuments. The site is characterized by its remarkable temples, palaces, and market streets, showcasing the grandeur of the Vijayanagara civilization. Key attractions include the Virupaksha Temple, the Vithala Temple with its famous stone chariot, and the Hampi Bazaar. Surrounded by dramatic boulder-strewn landscapes and lush greenery, Hampi offers a glimpse into a once-thriving empire and is a testament to India's rich cultural history. <a href="https://en.wikipedia.org/wiki/Hampi" target="_blank">Read More</a>
+                </p>
+            </div>
+            <h1>Hampi</h1>
+            <div class="image2">
+                <img src="https://imgs.search.brave.com/7UUFwvxxrGuiQNyf1S9VwQ4ES7FQFSlUOmUdk8bJipg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTUx/NzAyMDM1L3Bob3Rv/L2hhbXBpLWF0LXN1/bnNldC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9NzI0RHdj/UlFNZTJfRlRLN0pa/VnVKVkRJZGMxM3Y0/dkFERkphbW85WWRL/VT0" alt="Hampi">
+            </div>
+        </div>
+        <hr>
+        <!-- fifth -->
+        <div class="container1" id="c05">
+            <div class="image1">
+                <img src="https://imgs.search.brave.com/-zIOppc9MGQfpvtIqDTQF3M27VHR7bbkPZns6l9WpAo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc0/NDc0NzEzMS9waG90/by9jaXR5LXBhbGFj/ZS1qYWlwdXItaW5k/aWEuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWM5d2ozOTRG/YVpKeUR3MTVJdXp3/SGp6V0RuRXhQaWs1/elR2WEdDYUJPbVk9" alt="Jaipur City Palace">
+            </div>
+            <h1>Jaipur City Palace</h1>
+            <div class="about1">
+                <p>
+                    The Jaipur City Palace is a stunning royal residence in Jaipur, Rajasthan, India, built in the 18th century by Maharaja Sawai Jai Singh II. Renowned for its blend of Rajput, Mughal, and European architectural styles, the palace features ornate courtyards, grand halls, and beautifully decorated pavilions. The complex includes the Chandra Mahal, still occupied by the royal family, and a museum showcasing royal artifacts. The City Palace remains a vibrant symbol of Jaipur’s rich cultural and historical heritage. <a href="https://en.wikipedia.org/w/index.php?search=Jaipur+City+Palace&title=Special%3ASearch&ns0=1" target="_blank">Read More</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <!-- 6th -->
+        <div class="container2" id="c06"> 
+            <div class="about2">
+                <p>
+                    The Mysore Palace is a grand royal residence in Mysore, Karnataka, India, built between 1897 and 1912. Designed in Indo-Saracenic style by British architect Henry Irwin, the palace features stunning domes, arches, and ornate interiors. Its richly decorated rooms and elegant design reflect the opulence of the Wadiyar dynasty. The palace is also a focal point for cultural events, including the famous Dasara festival. <a href="https://en.wikipedia.org/wiki/Mysore_Palace" target="_blank">Read More</a>
+                </p>
+            </div>
+            <h1>Mysore Palace</h1>
+            <div class="image2">
+                <img src="https://imgs.search.brave.com/Zh4jgjBLjlKagWIhQhs0hKHmCBX3nzD5egdzd_Yn_eY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTcy/MTI0MDMyL3Bob3Rv/L215c29yZS1wYWxh/Y2UtYXQtZHVzay5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/cGFPNzRDX2RWc1kx/NEliSzBSTnFzMFRE/LWxTdGVReS1BVzVD/blFGRWJfND0" alt="Mysore Palace">
+            </div>
+        </div>
+        <hr>
+        <!-- seventh -->
+        <div class="container1" id="c07">
+            <div class="image1">
+                <img src="https://imgs.search.brave.com/LB0V3b9Xyd3Tj8a9Up-H2Kf3TvzVxGcLQX5xMCX1NM0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQy/MjE4NzU3My9waG90/by9lbGxvcmEtY2F2/ZXMuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPTRTMzdFY2E4/M01WUEcxejljRFVn/ZUFYUGpfNF81bVp4/UURueXRBQURNdFU9" alt="Ellora Caves">
+            </div>
+            <h1>Ellora Caves</h1>
+            <div class="about1">
+                <p>
+                    The Ellora Caves are a remarkable complex of rock-cut temples located in Maharashtra, India. Dating from the 6th to 10th centuries, these caves showcase a unique blend of Buddhist, Hindu, and Jain architecture. The site consists of 34 caves, including intricate monasteries, temples, and chapels, carved directly into the volcanic rock. Notable among them is the Kailasa Temple, an impressive monolithic structure dedicated to Lord Shiva. The Ellora Caves are celebrated for their detailed sculptures, elaborate carvings, and their role in reflecting the religious harmony of the era. <a href="https://en.wikipedia.org/wiki/Ellora_Caves" target="_blank">Read More</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <!-- 8th -->
+        <div class="container2" id="c08"> 
+            <div class="about2">
+                <p>
+                    The Konark Sun Temple, located in Odisha, India, is a stunning 13th-century temple dedicated to the Sun God, Surya. Renowned for its intricate stone carvings and chariot-like structure, the temple is designed to resemble a colossal solar chariot with twelve pairs of wheels and elaborate sculptures. Built by King Narasimhadeva I of the Eastern Ganga dynasty, the temple's detailed artwork and grand architecture reflect the excellence of Kalinga architecture. The Konark Sun Temple is a UNESCO World Heritage Site and remains a significant symbol of India's architectural and cultural heritage. <a href="https://en.wikipedia.org/wiki/Konark_Sun_Temple" target="_blank">Read More</a>
+                </p>
+            </div>
+            <h1 id="prob1">Konark Sun Temple</h1>
+            <div class="image2">
+                <img src="https://imgs.search.brave.com/5dwXNkd_KyKYspqXUI5VdX-i2malWQallOqVMTJYRgo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/dmVlbmF3b3JsZC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDMvS29uYXJr/LVN1bi1UZW1wbGUt/SGlzdG9yeS1BcmNo/aXRlY3R1cmUtYW5k/LUluZm9ybWF0aW9u/LmpwZWc" alt="Konark Sun Temple">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p>Contact us:</p>
+        <a href="https://www.instagram.com/the.arya_02?igsh=ZWRwYno1dmdqeHZ0" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank" class="icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/shreesh-shet-21163b238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/shreesh.shet.96?mibextid=ZbWKwL" target="_blank" class="icon"><i class="fab fa-facebook-f"></i></a>
+    </footer>
+</body>
+</html>
